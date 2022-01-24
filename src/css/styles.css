@@ -56,7 +56,7 @@ body {
   border: none;
   cursor: pointer;
   padding: 10px 20px;
-  margin-right: 10px;
+  margin-right: 70px;
   margin-left: 70px;
 }
 
@@ -92,7 +92,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px;
+  padding: 20px;
   position: static;
   width: 755px;
   height: auto;
@@ -104,6 +104,7 @@ body {
   order: 0;
   flex-grow: 0;
   margin-right: 50px;
+  margin-bottom: 10px;
 }
 
 .card:hover {
