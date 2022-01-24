@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: #f1f1f1;
+}
+
+.btn-container {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 6px rgba(31, 31, 31, 0.5);
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+}
+
+.input {
+  border: 1px solid rgba(160, 160, 160, 0.315);
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  width: 500px;
+}
+
+.input:focus {
+  box-shadow: 1px 2px 6px rgb(0, 0, 0, 0.3);
+}
+
+.btn {
+  /* background-color: #00adb5; */
+  background-color: #3eec7b;
+  color: black;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-left: 70px;
+}
+
+.btn:hover {
+  /* background-color: #00fff5; */
+  background-color: #a9ffc7;
+  transition: all 1s ease;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  position: static;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  position: static;
+  width: 755px;
+  height: auto;
+  /* background: #393e46; */
+  background-color: #333333;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.397);
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-right: 50px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+.card:not(:hover) {
+  transition: all 1s ease;
+}
+
+.logo {
+  position: absolute;
+  margin-right: 1200px;
+}
